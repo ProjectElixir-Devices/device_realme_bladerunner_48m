@@ -8,7 +8,7 @@ echo 'Cloning Vendor tree [2/5]'
 #  Vendor Tree
 rm -rf vendor/realme
 git clone --depth=1 https://github.com/ProjectElixir-Devices/android_vendor_realme-sm8250-common.git -b A13 vendor/realme/sm8250-common
-git clone --depth=1 https://github.com/ProjectElixir-Devices/android_vendor_realme_bladerunner.git -b A13 vendor/realme/bladerunner
+git clone --depth=1 https://github.com/ProjectElixir-Devices/android_vendor_realme_bladerunner_48m.git -b A13 vendor/realme/bladerunner_48m
 
 echo 'Cloning Kernel tree [3/5]'
 # Kernel Tree
