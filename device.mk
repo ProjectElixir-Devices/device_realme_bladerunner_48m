@@ -56,6 +56,8 @@ PRODUCT_PACKAGES += \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-elixir
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
