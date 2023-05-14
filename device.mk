@@ -45,6 +45,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.secure=0 \
     ro.debuggable=1
 
+# Init
+PRODUCT_PACKAGES += \
+    init.oplus.perf.rc
+
 # Overlays
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
