@@ -2,4 +2,5 @@ device/realme/
 vendor/realme
 kernel/realme/
 hardware/oplus
-hardware/dolby
+packages/apps/OPlusExtras
+hardware/lineage/compat
