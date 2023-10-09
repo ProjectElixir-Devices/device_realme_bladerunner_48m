@@ -25,4 +25,8 @@ echo 'Cloning Op Extras [5/5]'
 rm -rf packages/apps/OPlusExtras
 git clone --depth=1 https://github.com/ProjectElixir-Devices/packages_apps_OPlusExtras.git packages/apps/OPlusExtras
 
+# AOSP 17.0.2 clang-r487747c
+rm -rf prebuilts/clang/host/linux-x86/clang-r487747c
+git clone --depth=1 https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r487747c.git prebuilts/clang/host/linux-x86/clang-r487747c
+
 echo 'Completed, Now proceeding to lunch'
