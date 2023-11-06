@@ -30,6 +30,6 @@ rm -rf prebuilts/clang/host/linux-x86/clang-r487747c
 git clone --depth=1 https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r487747c.git prebuilts/clang/host/linux-x86/clang-r487747c
 
 rm -rf hardware/lineage/compat
-git clone --depth=1 https://github.com/LineageOS/android_hardware_lineage_compat.git -b lineage-20.0 hardware/lineage/compat
+git clone --depth=1 https://github.com/sreelekshman/android_hardware_lineage_compat -b lineage-20.0 hardware/lineage/compat
 
 echo 'Completed, Now proceeding to lunch'
